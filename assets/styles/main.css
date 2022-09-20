@@ -1,0 +1,65 @@
+* {
+  --Soft-Magenta: hsl(300, 69%, 71%);
+  --Violet: hsl(257, 40%, 49%);
+}
+
+body {
+  background-color: var(--Violet);
+  background-image: url(../images/bg-mobile.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2rem;
+}
+
+header img {
+  width: 8rem;
+}
+
+.card__image img {
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.card__text {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.card__text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin: 0;
+}
+
+.card__text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  opacity: .85;
+}
+
+.card__text button {
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 2px 3px 15px rgb(0 0 0 / 32%);
+  color: var(--Violet);
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  padding: 12px 80px;
+}
+
+.card__text button:hover {
+  background-color: var(--Soft-Magenta);
+  box-shadow: 4px 6px 15px rgb(0 0 0 / 32%);
+  color: white;
+  transition: all ease-in-out .3s;
+}
