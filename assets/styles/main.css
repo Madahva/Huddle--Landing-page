@@ -89,7 +89,7 @@ footer button:hover {
   transition: all ease-in-out .3s;
 }
 
-@media(min-width: 720px) {
+@media(min-width: 660px) {
   body {
     padding: 4rem;
   }
@@ -110,7 +110,7 @@ footer button:hover {
     font-size: 2rem;
     line-height: 2.5rem;
   }
-  
+
   .card__text p {
     font-size: 1.3rem;
     line-height: 2rem;
@@ -118,5 +118,48 @@ footer button:hover {
 
   .card__text button {
     font-size: 1rem;
+  }
+}
+
+@media(min-width: 1024px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+    padding: 2rem 4rem;
+    background-position: 0rem 0rem;
+    background-size: 72rem;
+  }
+
+  main {
+    align-items: center;
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+  }
+
+  .card__image img {
+    width: 95%;
+    margin-bottom: 0;
+  }
+
+  .card__text {
+    align-items: flex-start;
+    text-align: left;
+    width: 40%;
+  }
+
+  .card__text h1 {
+    line-height: 3rem;
+  }
+
+  .card__text p {
+    font-size: 1rem;
+  }
+
+  footer {
+    justify-content: end;
+    margin-top: 0rem;
+    position: absolute;
+    right: 4rem;
+    bottom: 2rem;
   }
 }
