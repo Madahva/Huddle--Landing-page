@@ -63,3 +63,28 @@ header img {
   color: white;
   transition: all ease-in-out .3s;
 }
+
+footer {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+
+footer button {
+  background-color: transparent;
+  border-radius: 100%;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+footer button:hover {
+  border-color: var(--Soft-Magenta);
+  color: var(--Soft-Magenta);
+  transition: all ease-in-out .3s;
+}
