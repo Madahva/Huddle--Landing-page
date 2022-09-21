@@ -88,3 +88,35 @@ footer button:hover {
   color: var(--Soft-Magenta);
   transition: all ease-in-out .3s;
 }
+
+@media(min-width: 720px) {
+  body {
+    padding: 4rem;
+  }
+
+  header img {
+    width: 14rem;
+  }
+
+  .card__image img {
+    margin: 4rem 0;
+  }
+
+  .card__text {
+    gap: 3rem;
+  }
+
+  .card__text h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  
+  .card__text p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .card__text button {
+    font-size: 1rem;
+  }
+}
